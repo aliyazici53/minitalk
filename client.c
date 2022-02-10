@@ -6,7 +6,7 @@
 /*   By: fkaratay <fkaratay@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 02:41:30 by fkaratay          #+#    #+#             */
-/*   Updated: 2022/02/10 14:37:02 by fkaratay         ###   ########.fr       */
+/*   Updated: 2022/02/10 15:31:45 by fkaratay         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	main(int argc, char *argv[])
 	int		pid;
 	char	*str;
 
-	if (argc == 3)
+	if (argc == 3 && *argv[2] != 0)
 	{
 		pid = ft_atoi(argv[1]);
 		str = argv[2];
