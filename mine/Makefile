@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: fkaratay <fkaratay@student.42.fr>          +#+  +:+       +#+         #
+#    By: alyazici <amzyaziciali1@gmail.com>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/10 11:19:35 by fkaratay          #+#    #+#              #
-#    Updated: 2022/02/10 11:27:59 by fkaratay         ###   ########.fr        #
+#    Updated: 2022/03/07 13:18:47 by alyazici         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,9 +25,9 @@ all:
 re: all
 
 clean:
-	rm -rf client server
+	@rm -rf client server
 
 fclean:
-	rm -rf client server
+	@rm -rf client server
 
 .PHONY: re fclean clean all
